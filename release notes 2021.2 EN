@@ -28,7 +28,7 @@ If anyone is able and willing to go over one or more of the outdated English man
 
 &nbsp;
 <h3>iNet Wireless Daemon</h3>
-The Xorg and noX flavors and the 2nd Plasma image use a new tool to connect your wireless devices. Intels iNet wireless daemon (iwd) sends WPA-Supplicant into well-earned retirement. Ten times smaller and a lot faster, iwd will be the successor. If you like, you can use iwd in the other flavors too, either on its own or within Network-Manager. Further information can be found in the Arch Linux wiki. If further tests go as expected, we plan to ship iwd with other flavours as well
+The Xorg and noX flavors and the 2nd Plasma image are preconfigured to use a new tool to connect your wireless devices. Intels iNet wireless daemon (iwd) sends WPA-Supplicant into well-earned retirement. Ten times smaller and a lot faster, iwd will be the successor. If you like, you can use iwd in the other flavors too, either on its own or within Network-Manager. Further information can be found in the Arch Linux wiki. If further tests go as expected, we plan to ship iwd with other flavours as well
 <h4>If you want to use wpa_supplicant instead of iwd follow the steps below:</h4>
 First stop and mask iwd.service, stop NetworkManager.service, rename /etc/NetworkManger/conf.d/nm.conf, unmask and start wpa_supplicant.service, start NetworkManager.service again:
 
