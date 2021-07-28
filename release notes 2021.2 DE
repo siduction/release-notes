@@ -90,9 +90,9 @@ Return to non-free
 
 Momentan bietet der Installer keine Möglichkeit, Pakete abzuwählen, die nicht mit den DFSG, den Debian-Richtlinien für Freie Software, übereinstimmen. Das bedeutet, dass Pakete wie etwa unfreie Firmware standardmäßig auf dem System installiert werden. Der Befehl <em>vrms</em> wird diese Pakete für Dich auflisten. Du kannst nicht erwünschte Pakete manuell entfernen oder sie alle entfernen, indem Du vor oder nach der Installation apt purge $(vrms -s) eingibst. Andernfalls kann unser Skript remove-nonfree dies für Dich tun.
 <h4>Installationshinweise und bekannte Probleme</h4>
-Wenn Du eine bestehende Home-Partition (oder eine andere Datenpartition) wiederverwenden möchtest, solltest Du dies nach der Installation und nicht im Calamares-Installer tun. Verschlüsselungs-Setups wie LUKS und andere werden vom Installer-Framework noch nicht unterstützt, Du solltest Dein Partitions-Setup vorher vorbereiten und vielleicht besser den Cli-Installer in einem Terminal verwenden.
-
-Bei einigen Intel-Grafikprozessoren auf einigen Geräten kann es vorkommen, dass das System kurz nach dem Booten in Live eingefroren ist. Um dies zu beheben, müssen Sie den Kernelparameter intel_iommu=igfx_off setzen, bevor Sie erneut booten.
+* Wenn Du eine bestehende Home-Partition (oder eine andere Datenpartition) wiederverwenden möchtest, solltest Du dies nach der Installation und nicht im Calamares-Installer tun. 
+* Verschlüsselungs-Setups wie LUKS und andere werden vom Installer-Framework noch nicht unterstützt, Du solltest Dein Partitions-Setup vorher vorbereiten und vielleicht besser den Cli-Installer in einem Terminal verwenden.
+* Bei einigen Intel-Grafikprozessoren auf einigen Geräten kann es vorkommen, dass das System kurz nach dem Booten in Live eingefroren ist. Um dies zu beheben, müssen Sie den Kernelparameter intel_iommu=igfx_off setzen, bevor Sie erneut booten.
 <h4>Credits für siduction 2021.2.0</h4>
 <h5>Core Team:</h5>
 Torsten Wohlfarth (towo)
