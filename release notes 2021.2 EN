@@ -90,7 +90,6 @@ Return to non-free
 Right now, the installer does not offer an opt-out for packages that do not comply with DFSG, the Debian Free Software Guidelines. That means that non-free packages like unfree firmware will be installed by default on the system. The command vrms will list these packages for you. You can remove not wanted packages manually or remove them all by issuing apt purge $(vrms -s) before or after installation. Else our script remove-nonfree can do that for you.
 <h4>Installation hints and known issues</h4>
 * If you want to reuse your existing home (or any other data) partition, it would be wise to do so after installation and not in the Calamares Installer.
-* Calamares-Installer has a bug preventing it from creating GPT partitions. In those cases, please set up partitions manually or use cli-installer.
 * Encryption setups like LUKS and others are not yet supported by the Installer Framework, you should prepare your partition setup beforehand and might better use the cli-installer in a terminal.
 * With some Intel GPUs on some devices, you might encounter a frozen system on Live shortly after boot. To fix this, you need to set the kernel parameter <em>intel_iommu=igfx_off</em> before booting again.
 <h4>Credits for siduction 2021.2.0
