@@ -107,39 +107,29 @@ With some Intel graphics processors on some devices, the system may freeze short
 #### Core Team:
 
 
-Torsten Wohlfarth (towo)
-
-Hendrik Lehmbruch (hendrikL)
-
-Ferdinand Thommes (devil)
-
-Vincent Vietzke (vinzv)
-
+Torsten Wohlfarth (towo)<br>
+Hendrik Lehmbruch (hendrikL)<br>
+Ferdinand Thommes (devil)<br>
+Vincent Vietzke (vinzv)<br>
 Axel Konrad (akli)
 
 
 #### Past contributors:
 
-Alf Gaida (agaida) (eaten by the cat)
-
+Alf Gaida (agaida) (eaten by the cat)<br>
 Axel Beu 2021†
 
 #### Code, ideas and support:
 
-Markus Meyer (coruja)
-
-der_bud
-
-se7en
-
-davydych
-
+Markus Meyer (coruja)<br>
+der_bud<br>
+se7en<br>
+davydych<br>
 tuxnix
 
 #### Artwork:
 
 The artwork is by [Angevere](https://www.artstation.com/angevere) (Ona Kristensen). We use it with kind permission.
-
 
 ### Many thanks to all involved!
 We would like to thank you, all the testers and all the people who have supported us over the years. This release is also thanks to you. We would also like to thank the birthday boy Debian, as this means we stand on the shoulders of giants.
