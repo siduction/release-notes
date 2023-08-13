@@ -3,11 +3,15 @@ Das siduction-Team ist sehr stolz,euch zu einem besonderen Anlass ein außerplan
 
 Debian ist nach Slackware die zweiälteste Distribution, und wird lediglich von den Beteiligten getragen, ohne das ein Unternehmen im Hintergrund steht oder jemand an der Spitze bestimmt, wo es lang geht. Debian gilt wegen der vielen bis heute unterstützten Architekturen als das »universelle Betriebssystem« und die Stabilität der Veröffentlichungen ist legendär.
 
+### Wechselhafte Geschichte
+
 Die Geschichte begann am 16. August 1993, als Ian Murdock sein selbst konzipiertes System »Debian Linux Release« vorstellte. Im gleichen Jahr folgte das [Debian Manifest](https://www.debian.org/doc/manuals/project-history/manifesto.de.html) Die erste stabile Version 1.1 erschien 1996, damals noch von unter 100 Entwicklern zusammengestellt. Das Release trug den Codenamen »Buzz«, ein erster Bezug auf die Figuren aus dem Film-Franchise Toy Story, dem auch heute noch die Codenamen entliehen werden. 
 
 Bisher sind weitere 16 Veröffentlichungen hinzugekommen, deren aktuelle den Codenamen »Bookworm« trägt und die am 10. Juni 2023 freigegeben wurde. Das Motto lautet dabei immer noch: Es wird veröffentlicht, wenn es fertig ist. 
 
 1997 stimmten bereits rund 400 Entwickler mit dem Debian-Gesellschaftsvertrag einem wichtigen Dokument zu, das seit seinem Bestehen erst zwei Mal editiert wurde und das unter der Ziffer 1. konstatiert: **Debian wird zu 100% frei bleiben**. Gleichzeitig wurden als Teil dieses Vertrags die »Debian-Richtlinien für Freie Software« (DFSG) beschlossen.
+
+### Selbstverwaltet
 
 Debian verwaltet sich in Form einer Do-okratie. Dabei bestimmen die heute rund 1.000 Entwickler selbständig und verantwortlich ihre Aufgaben. Dass das unter Tausend Kreativen nicht immer einfach ist, sollte jedem klar sein. Daran erinnern unter anderem Verwerfungen wie die Einführung von Systemd, die Debian bis an die Belastungsgrenze brachte. Heiß diskutiert wurde 2022 auch die Inklusion unfreier Firmware auf den Installationsmedien der Distribution. Die Diskussionen darüber zogen sich über Jahre hin.
 
