@@ -103,8 +103,8 @@ If you want to reuse an existing home partition (or any other data partition), y
 With some Intel graphics processors on some devices, the system may freeze shortly after booting into Live. To fix this, you must set the kernel parameter intel_iommu=igfx_off before rebooting.
 
 
-#### Credits for siduction 2023.1.0
-### Core Team:
+### Credits for siduction 2023.1.0
+#### Core Team:
 
 
 Torsten Wohlfarth (towo)
@@ -118,18 +118,17 @@ Vincent Vietzke (vinzv)
 Axel Konrad (akli)
 
 
-Past contributors:
-
+#### Past contributors:
 
 Alf Gaida (agaida) (eaten by the cat)
+
 Axel Beu 2021†
+
+#### Code, ideas and support:
+
 Markus Meyer (coruja)
 
-
-Code, ideas and support:
-
-
-the_bud
+der_bud
 
 se7en
 
@@ -137,14 +136,12 @@ davydych
 
 tuxnix
 
-
-Artwork:
-
+#### Artwork:
 
 The artwork is by [Angevere](https://www.artstation.com/angevere) (Ona Kristensen). We use it with kind permission.
 
 
-Many thanks to all involved!
+### Many thanks to all involved!
 We would like to thank you, all the testers and all the people who have supported us over the years. This release is also thanks to you. We would also like to thank the birthday boy Debian, as this means we stand on the shoulders of giants.
 And now have fun!
 
