@@ -111,7 +111,7 @@ tuxnix
 
 Das Artwork stammt von [Angevere](https://www.artstation.com/angevere) (Ona Kristensen). Wir benutzen es mit freundlicher Genehmigung.
 
-Vielen Dank an alle Beteiligten!
+### Vielen Dank an alle Beteiligten!
 Wir möchten uns bei euch, bei allen Testern und all den Menschen bedanken, die uns über die Jahre hinweg unterstützt haben. Dieses Release ist auch dein Verdienst. Wir möchten zudem dem Geburtstagskind Debian danken, da wir damit auf den Schultern von Giganten stehen.
 Und nun viel Spaß!
 
