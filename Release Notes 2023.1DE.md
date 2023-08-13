@@ -89,15 +89,15 @@ Vinzenz Vietzke (vinzv)
 
 Axel Konrad (akli)
 
-Früher haben beigetragen:
+### Früher haben beigetragen:
 
 Alf Gaida (agaida) (eaten by the cat)
 
 Axel Beu 2021†
 
-Markus Meyer (coruja)
+### Code, Ideen und Unterstützung:
 
-Code, Ideen und Unterstützung:
+Markus Meyer (coruja)
 
 der_bud
 
@@ -107,7 +107,7 @@ davydych
 
 tuxnix
 
-Artwork:
+### Artwork:
 
 Das Artwork stammt von [Angevere](https://www.artstation.com/angevere) (Ona Kristensen). Wir benutzen es mit freundlicher Genehmigung.
 
