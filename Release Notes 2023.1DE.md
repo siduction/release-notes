@@ -79,32 +79,23 @@ Bei einigen Intel-Grafikprozessoren auf einigen Geräten kann es vorkommen, dass
 ### Credits für siduction 2023.1.0
 #### Core Team:
 
-Torsten Wohlfarth (towo)
-
-Hendrik Lehmbruch (hendrikL)
-
-Ferdinand Thommes (devil)
-
-Vinzenz Vietzke (vinzv)
-
+Torsten Wohlfarth (towo)<br>
+Hendrik Lehmbruch (hendrikL)<br>
+Ferdinand Thommes (devil)<br>
+Vinzenz Vietzke (vinzv)<br>
 Axel Konrad (akli)
 
 #### Früher haben beigetragen:
 
-Alf Gaida (agaida) (eaten by the cat)
-
-Axel Beu 2021†
+Alf Gaida (agaida) (eaten by the cat)<br>
+Axel Beu 2021†<br>
 
 #### Code, Ideen und Unterstützung:
 
-Markus Meyer (coruja)
-
-der_bud
-
-se7en
-
-davydych
-
+Markus Meyer (coruja)<br>
+der_bud<br>
+se7en<br><br>
+davydych<br>
 tuxnix
 
 #### Artwork:
