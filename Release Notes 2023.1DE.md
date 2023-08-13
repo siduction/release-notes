@@ -76,8 +76,8 @@ Momentan bietet der Installer keine Möglichkeit, Pakete abzuwählen, die nicht 
 Wenn ihr eine bestehende Home-Partition (oder eine andere Datenpartition) wiederverwenden möchtet, solltet ihr dies nach der Installation und nicht im Calamares-Installer tun. Das funktioniert zwar, es ist aber sicherer, dies hinterher zu tun.
 Bei einigen Intel-Grafikprozessoren auf einigen Geräten kann es vorkommen, dass das System kurz nach dem Booten in Live eingefroren ist. Um dies zu beheben, müsst ihr den Kernel-Parameter intel_iommu=igfx_off setzen, bevor ihr erneut bootet.
 
-#### Credits für siduction 2023.1.0
-### Core Team:
+### Credits für siduction 2023.1.0
+#### Core Team:
 
 Torsten Wohlfarth (towo)
 
@@ -89,13 +89,13 @@ Vinzenz Vietzke (vinzv)
 
 Axel Konrad (akli)
 
-### Früher haben beigetragen:
+#### Früher haben beigetragen:
 
 Alf Gaida (agaida) (eaten by the cat)
 
 Axel Beu 2021†
 
-### Code, Ideen und Unterstützung:
+#### Code, Ideen und Unterstützung:
 
 Markus Meyer (coruja)
 
@@ -107,7 +107,7 @@ davydych
 
 tuxnix
 
-### Artwork:
+#### Artwork:
 
 Das Artwork stammt von [Angevere](https://www.artstation.com/angevere) (Ona Kristensen). Wir benutzen es mit freundlicher Genehmigung.
 
