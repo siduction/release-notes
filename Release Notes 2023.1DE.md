@@ -88,14 +88,19 @@ Axel Konrad (akli)
 Früher haben beigetragen:
 
 Alf Gaida (agaida) (eaten by the cat)
+
 Axel Beu 2021†
+
 Markus Meyer (coruja)
 
 Code, Ideen und Unterstützung:
 
 der_bud
+
 se7en
+
 davydych
+
 tuxnix
 
 Artwork:
