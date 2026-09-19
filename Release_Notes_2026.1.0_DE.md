@@ -11,25 +11,25 @@ Zunächst ein paar Worte zum neuen Artwork von siduction 2026.1.0 mit dem Titel 
 
 #### siduction Editionen
 
-Die Flavors, die wir für siduction 2026.1.0 anbieten, sind KDE Plasma 6.7, LXQt 2.3.0, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es wieder nicht geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Bei Interesse meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar.
+Die Flavors, die wir für siduction 2026.1.0 anbieten, sind KDE Plasma 6.7.4, LXQt 2.3.0, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es leider nicht in die Auswahl geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Wenn ihr Interesse habt oder jemanden mit Interesse kennt, meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar.
 
-+ **KDE Plasma 6.7**  
-  Wir haben mit der Veröffentlichung schlussendlich noch auf Plasma 6.7 gewartet. Diese neue Hauptversion bildet einen Einschnitt insofern, als es die letzte Hauptversion von KDE Plasma ist, die noch eine X11-Sitzung bietet. Mit Plasma 6.8, dessen Veröffentlichung Anfang 2027 erfolgen soll, ist Wayland der alleinige Standard.  
++ **KDE Plasma 6.7,4**  
+  Wir haben mit der Veröffentlichung von siduction 2026.1.0 »Big Crime« schlussendlich noch auf Plasma 6.7 gewartet. Diese neue Hauptversion bildet einen Einschnitt insofern, als es die letzte Hauptversion von KDE Plasma ist, die noch eine X11-Sitzung mitbringt. Mit Plasma 6.8, das am 14. Oktober erscheint, ist Wayland der alleinige Standard.  
   Anwender, die dann noch Probleme mit einzelnen Anwendungen unter Wayland haben, können auf Xfce ausweichen, das bisher standardmäßig noch nicht auf Wayland setzt.  
-  Auf GitHub wird derzeit ein Fork namens [SonicDE](https://github.com/Sonic-DE) entwickelt, der bereits jetzt in Unstable installierbar ist, den wir aber noch nicht getestet haben. Erfahrungen damit könnt ihr gerne im Forum kundtun.
+  Auf GitHub wird derzeit ein Fork namens [SonicDE](https://github.com/Sonic-DE) entwickelt, der bereits jetzt in Unstable installierbar ist, den wir aber noch nicht getestet haben. Wenn ihr bereits Erfahrungen damit habt, könnt ihr diese gerne bei uns im Forum posten.
 
 + **Xfce 4.20**  
- Xfce bleibt seinem langsamen Turnus treu und steht, wie beim letzten Release, immer noch bei [Xfce 4.20](https://linuxnews.de/xfce-4-20-wayland-unterstuetzung-und-noch-viel-mehr/). Es bietet noch experimentelle Bereitstellung von Wayland, die seit der Veröffentlichung weiter ausgebaut wurde. Überdies erhielt unter anderem der Dateimanager Thunar wesentliche Verbesserungen.
+ Xfce bleibt seinem langsamen Turnus treu und steht, wie beim letzten Release, immer noch bei [Xfce 4.20](https://linuxnews.de/xfce-4-20-wayland-unterstuetzung-und-noch-viel-mehr/). Es bietet derzeit eine noch experimentelle Implementierung von Wayland, die seit der Veröffentlichung weiter ausgebaut wurde. Überdies erhielt unter anderem der Dateimanager Thunar wesentliche Verbesserungen.
 
 + **LXQt 2.3.0**  
-  LXQt ist der leichtgewichtige Bruder von KDE Plasma. Der seit zehn Jahren entwickelte Desktop bietet in [Version 2.3.0](https://linuxnews.de/lxqt-2-3-0-mit-mehr-wayland-unterstuetzung/) ebenfalls eine noch als experimentell eingestufte Wayland-Sitzung. Die Verbesserung der Wayland-Unterstützung wurde insbesondere im LXQt-Panel fortgesetzt, dessen Desktop-Umschalter nun für die Tiling-Compositoren labwc und niri aktiviert ist, und es gibt ein neues, auf IPC (Interprozesskommunikation) basierendes Backend für Wayfire.  
-  Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom xx.07.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer und einer angepassten Version des Linux-Kernels 7.x.x angereichert, während systemd bei v261~rc3-1  steht.
+  LXQt ist der leichtgewichtige Bruder von KDE Plasma. Der seit zehn Jahren entwickelte Desktop bietet in [Version 2.3.0](https://linuxnews.de/lxqt-2-3-0-mit-mehr-wayland-unterstuetzung/) ebenfalls eine noch als experimentell eingestufte Wayland-Sitzung. Die Verbesserung der Wayland-Unterstützung wurde insbesondere im LXQt-Panel fortgesetzt, dessen Desktop-Umschalter nun für die Tiling-Compositoren *labwc* und *niri* aktiviert ist, Darüber hinaus gibt es ein neues, auf IPC (Interprozesskommunikation) basierendes Backend für Wayfire.  
+  Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom xx.09.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer und einer angepassten Version des Linux-Kernels 7.2.5 angereichert, während systemd bei v262~rc2-1 steht.
 
 + **Xorg**  
-  Text einfügen
+  Xorg bietet wie gehabt eine Möglichkeit, das System basierend auf einem vorinstallierten X-Server selbst aufzubauen. Das gilt für alle ausgelieferten Desktop-Umgebungen, wird aber ab Plasma 6.8 dort nicht mehr funktionieren.
   
 + **NOX**  
-  Mit dem überarbeiteten cli-installer (siehe unten) ist die Installation in ein UEFI GPT System möglich. Zusätzlich kann der Benutzer zwischen den Bootmanagern *systemd-boot* und *GRUB* wählen.
+  Nox unterscheidet sich von Xorg durch die Abwesenheit eines X-Servers. Mit dem überarbeiteten cli-installer (siehe unten) ist die Installation in ein UEFI GPT System möglich. Zusätzlich kann der Benutzer zwischen den Bootmanagern *systemd-boot* und *GRUB* wählen.
 
 #### cli-installer
 
@@ -38,8 +38,7 @@ Mit der Aufnahme von Calamares als graphisches Installationsprogramm verlor der 
 
 Zum Verständnis: Während der *cli-installer* die Benutzeroberfläche für den Nutzer bietet, ist der *fll-installer* das eigentliche Werkzeug im Hintergrund, das die Daten auf die Festplatte schreibt. 
 
-Das besondere Highlight ist der integrierte Bootmanager systemd-boot, der somit in allen Flavours zur Installation bereit steht. Wer über ein einfaches Hardware Setup verfügt ist mit systemd-boot gut beraten.  
-Der überarbeitete cli-installer führt den Benutzer durch die Konfiguration, bietet sinnvolle Aktionen an, prüft Abhängigkeiten und Bedingungen und informiert über vorgenommene Einstellungen. Ein Abbruch des Programms ist zu jeder Zeit möglich.
+Das besondere Highlight ist der integrierte Bootmanager systemd-boot, der somit in allen Flavours zur Installation bereit steht. Wer über ein einfaches Hardware Setup verfügt ist mit systemd-boot gut beraten. Der überarbeitete cli-installer führt den Benutzer durch die Konfiguration, bietet sinnvolle Aktionen an, prüft Abhängigkeiten und Bedingungen und informiert über vorgenommene Einstellungen. Ein Abbruch des Programms ist zu jeder Zeit möglich.
 
 **Die wichtigsten Änderungen:**  
 + Aktualisierung veralteter Befehle, Abfragen und Dialoge.  
@@ -119,7 +118,7 @@ Die folgenden non-free und contrib Pakete sind standardmäßig installiert:
 
 #### Non-Free Inhalte entfernen
 
-Momentan bietet der Installer keine Möglichkeit, Pakete abzuwählen, die nicht mit den DFSG, den Debian-Richtlinien für Freie Software, übereinstimmen. Das bedeutet, dass Pakete wie etwa unfreie Firmware standardmäßig auf dem System installiert werden. Der Befehl vrms wird diese Pakete für dich auflisten. Du kannst nicht erwünschte Pakete manuell deinstallieren oder sie alle entfernen, indem du vor oder nach der Installation apt purge \$(vrms -s) eingibst. Andernfalls kann später unser Skript remove-nonfree dies für dich tun.
+Wer sich bei der Installation in Calamares dafür entschieden hat, auch unfreie software zu installieren, das aber später ändern möchte, lässt sich die unfreie Software in der Installation mit dem Befehl *vrms* (Virtual Richard Stallman) anzeigen. Du kannst nicht erwünschte Pakete manuell deinstallieren oder mit dem Befehl *apt purge \$(vrms -s)* alle auf einmal inklusive Konfiguration entfernen. Unser Skript *remove-nonfree* führt zum gleichen Ergebnis.
 
 #### Installationshinweise und bekannte Probleme
 
