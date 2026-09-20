@@ -7,7 +7,7 @@ Eigentlich sollte Big Crime traditionsgemäß zwischen den Jahren erscheinen. Fe
 
 ### Was erwartet euch bei siduction 2026.1.0?
 
-Zunächst ein paar Worte zum neuen Artwork von siduction 2026.1.0 mit dem Titel »Big Crime«. Als Vorlage dient der gleichnamige Song von Neil Young, in dem er die Politik der derzeitigen US-Regierung scharf kritisiert. Das Wallpaper wurde mit Chatpt-KI erzeugt.
+Zunächst ein paar Worte zum neuen Artwork von siduction 2026.1.0 mit dem Titel »Big Crime«. Als Vorlage dient der gleichnamige Song von Neil Young, in dem er die Politik der derzeitigen US-Regierung scharf kritisiert. Das Wallpaper wurde mit Chatgpt-KI erzeugt.
 
 #### siduction Editionen
 
