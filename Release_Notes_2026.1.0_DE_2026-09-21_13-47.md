@@ -26,7 +26,7 @@ Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von D
   LXQt ist der leichtgewichtige Bruder von KDE Plasma. Der seit zehn Jahren entwickelte Desktop bietet in [Version 2.3.0](https://linuxnews.de/lxqt-2-3-0-mit-mehr-wayland-unterstuetzung/) ebenfalls eine noch als experimentell eingestufte Wayland-Sitzung. Die Verbesserung der Wayland-Unterstützung wurde insbesondere im LXQt-Panel fortgesetzt, dessen Desktop-Umschalter nun für die Tiling-Compositoren *labwc* und *niri* aktiviert ist, Darüber hinaus gibt es ein neues, auf IPC (Interprozesskommunikation) basierendes Backend für Wayfire.
 
 + **Xorg**  
-  Xorg bietet wie gehabt eine Möglichkeit, das System basierend auf einem vorinstallierten X-Server selbst aufzubauen. Das gilt jetzt noch für alle ausgelieferten Desktop-Umgebungen, wird aber ab Plasma 6.8 mit KDE und LXQt nicht mehr funktionieren.
+  Xorg bietet wie gehabt eine Möglichkeit, das System basierend auf einem vorinstallierten X-Server selbst aufzubauen. Das gilt jetzt noch für alle ausgelieferten Desktop-Umgebungen, wird aber ab Plasma 6.8 mit KDE und LXQt nicht mehr funktionieren.  Als Fenstermanager dient Fluxbox,ein extrem schneller und speicherschonender Fenstermanager für das X Window System. Somit eignet sich Xorg auch als Ausgangspunkt für Anwender die (noch) nicht mit Wayland arbeiten können oder wollen.
   
 + **NOX**  
   Nox unterscheidet sich von Xorg durch die Abwesenheit eines X-Servers. Mit dem überarbeiteten cli-installer (siehe unten) ist die Installation auch in ein aktuelles UEFI GPT System möglich.
