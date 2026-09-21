@@ -1,0 +1,94 @@
+6c6
+< Eigentlich sollte Big Crime traditionsgemäß zwischen den Jahren erscheinen. Fehlende Zeit bei den Beteiligten führten dazu, dass die Veröffentlichung erst jetzt erscheint. Das neue Abbild steht [zum Download]() bereit.
+---
+> Eigentlich sollte Big Crime traditionsgemäß zwischen den Jahren erscheinen. Fehlende Zeit bei den Beteiligten führten dazu, dass die Veröffentlichung erst jetzt erscheint. Die neuen Abbilder stehen [zum Download](https://isobuilds.siduction.org) bereit.
+12c12
+< #### siduction Editionen
+---
+> ### siduction Editionen
+14c14,15
+< Die Flavors, die wir für siduction 2026.1.0 anbieten, sind KDE Plasma 6.7.4, LXQt 2.3.0, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es leider nicht in die Auswahl geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Wenn ihr Interesse habt oder jemanden mit Interesse kennt, meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar.
+---
+> Die Flavors, die wir für siduction 2026.1.0 anbieten, sind KDE Plasma 6.7.4, LXQt 2.3.0, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es leider nicht in die Auswahl geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Wenn ihr Interesse habt oder jemanden mit Interesse kennt, meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar.  
+> Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom xx.09.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer und einer angepassten Version des Linux-Kernels 7.2.6 angereichert, während systemd bei v262~rc2-1 steht.
+25,26c26
+<   LXQt ist der leichtgewichtige Bruder von KDE Plasma. Der seit zehn Jahren entwickelte Desktop bietet in [Version 2.3.0](https://linuxnews.de/lxqt-2-3-0-mit-mehr-wayland-unterstuetzung/) ebenfalls eine noch als experimentell eingestufte Wayland-Sitzung. Die Verbesserung der Wayland-Unterstützung wurde insbesondere im LXQt-Panel fortgesetzt, dessen Desktop-Umschalter nun für die Tiling-Compositoren *labwc* und *niri* aktiviert ist, Darüber hinaus gibt es ein neues, auf IPC (Interprozesskommunikation) basierendes Backend für Wayfire.  
+<   Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom xx.09.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer und einer angepassten Version des Linux-Kernels 7.2.5 angereichert, während systemd bei v262~rc2-1 steht.
+---
+>   LXQt ist der leichtgewichtige Bruder von KDE Plasma. Der seit zehn Jahren entwickelte Desktop bietet in [Version 2.3.0](https://linuxnews.de/lxqt-2-3-0-mit-mehr-wayland-unterstuetzung/) ebenfalls eine noch als experimentell eingestufte Wayland-Sitzung. Die Verbesserung der Wayland-Unterstützung wurde insbesondere im LXQt-Panel fortgesetzt, dessen Desktop-Umschalter nun für die Tiling-Compositoren *labwc* und *niri* aktiviert ist, Darüber hinaus gibt es ein neues, auf IPC (Interprozesskommunikation) basierendes Backend für Wayfire.
+29c29
+<   Xorg bietet wie gehabt eine Möglichkeit, das System basierend auf einem vorinstallierten X-Server selbst aufzubauen. Das gilt für alle ausgelieferten Desktop-Umgebungen, wird aber ab Plasma 6.8 dort nicht mehr funktionieren.
+---
+>   Xorg bietet wie gehabt eine Möglichkeit, das System basierend auf einem vorinstallierten X-Server selbst aufzubauen. Das gilt jetzt noch für alle ausgelieferten Desktop-Umgebungen, wird aber ab Plasma 6.8 mit KDE und LXQt nicht mehr funktionieren.
+32c32
+<   Nox unterscheidet sich von Xorg durch die Abwesenheit eines X-Servers. Mit dem überarbeiteten cli-installer (siehe unten) ist die Installation in ein UEFI GPT System möglich. Zusätzlich kann der Benutzer zwischen den Bootmanagern *systemd-boot* und *GRUB* wählen.
+---
+>   Nox unterscheidet sich von Xorg durch die Abwesenheit eines X-Servers. Mit dem überarbeiteten cli-installer (siehe unten) ist die Installation auch in ein aktuelles UEFI GPT System möglich.
+34c34
+< #### cli-installer
+---
+> ### cli-installer
+36,39c36
+< Für siduction 2026.1.0 wurde der cli-installer komplett modernisiert. Er ist in allen Flavours enthalten.  
+< Mit der Aufnahme von Calamares als graphisches Installationsprogramm verlor der zugrundeliegende fll-installer zunehmend an Bedeutung. Das führte dazu, dass der cli- und der fll-installer seit 2018 nahezu unverändert blieben. Da siduction auch weiterhin ein NOX Flavour bereitstellen möchte, bedurfte das Gespann cli- und fll-installer einer grundlegenden Überarbeitung mit der Integration aktueller Features.
+< 
+< Zum Verständnis: Während der *cli-installer* die Benutzeroberfläche für den Nutzer bietet, ist der *fll-installer* das eigentliche Werkzeug im Hintergrund, das die Daten auf die Festplatte schreibt. 
+---
+> Für siduction 2026.1.0 wurde der cli-installer komplett modernisiert. Er ist in allen Flavours enthalten.
+42a40,42
+> Mit der Aufnahme von Calamares als graphisches Installationsprogramm verlor der zugrundeliegende fll-installer zunehmend an Bedeutung. Das führte dazu, dass der cli- und der fll-installer seit 2018 nahezu unverändert blieben. Da siduction auch weiterhin ein NOX Flavour bereitstellen möchte, bedurfte das Gespann cli- und fll-installer einer grundlegenden Überarbeitung mit der Integration aktueller Features.  
+> Zum Verständnis: Während der *cli-installer* die Benutzeroberfläche für den Nutzer bietet, ist der *fll-installer* das eigentliche Werkzeug im Hintergrund, das die Daten auf die Festplatte schreibt.
+> 
+52c52
+< #### Btrfs-Dateisystem
+---
+> ### Btrfs-Dateisystem
+56c56
+< **Auszug aus der info-md von siduction-btrfs:**
+---
+> **Auszug aus der Dokumentation von siduction-btrfs (info-md):**
+63c63
+< Nach einem Rollback wird im Rollbackziel mittels chroot die Datei */boot/grub/grub.cfg* neu erstellt und anschließend aus dem Rollbackziel heraus GRUB neu installiert. Dadurch gelangt der User mit einem einfachen Reboot direkt in das Rollbackziel. Alle anderen Subvolumen, auch das zuvor verwendete, sind über das Untermenü *siduction snapshots* erreichbar.  
+---
+> Nach einem Rollback wird im Rollbackziel mittels chroot die Datei */boot/grub/grub.cfg* neu erstellt und anschließend aus dem Rollbackziel heraus GRUB neu installiert. Dadurch gelangt der Benutzer mit einem einfachen Reboot direkt in das Rollbackziel. Alle anderen Subvolumen, auch das zuvor verwendete, sind über das Untermenü *siduction snapshots* erreichbar.  
+67c67
+< Nach einem Rollback erstellt das Skript *rollback-sd-boot* die Booteinträge. Dabei berücksichtigt es alle im neuen Snapshot enthaltenen Kernel. Der Standardbooteintrag wird auf das Standardsubvolumen gesetzt.  
+---
+> Nach einem Rollback erstellt das Skript *rollback-sd-boot* die Booteinträge. Dabei berücksichtigt es alle im Rollbackziel enthaltenen Kernel. Der Standardbooteintrag wird auf das Rollbackziel, das jetzt das Standardsubvolumen ist, gesetzt.  
+89c89
+< #### Nonfree:
+---
+> **Nonfree:**
+112c112
+< #### Contrib:
+---
+> **Contrib:**
+119c119
+< #### Non-Free Inhalte entfernen
+---
+> ### Non-Free Inhalte entfernen
+123c123
+< #### Installationshinweise und bekannte Probleme
+---
+> ### Installationshinweise und bekannte Probleme
+127c127
+< #### Credits für siduction 202.1.0
+---
+> ### Credits für siduction 2026.1.0
+129c129
+< ### Core Team:
+---
+> **Core Team:**
+141c141
+< #### Früher haben beigetragen:
+---
+> **Früher haben beigetragen:**
+149c149,150
+< #### Server & Hosting
+---
+> **Server & Hosting**
+> 
+152c153
+< #### Unser Dank gilt allen Beteiligten und unseren treuen Usern!
+---
+> ### Unser Dank gilt allen Beteiligten und unseren treuen Usern!
