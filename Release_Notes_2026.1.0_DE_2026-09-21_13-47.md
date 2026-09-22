@@ -12,7 +12,7 @@ Zunächst ein paar Worte zum neuen Artwork von siduction 2026.1.0 mit dem Titel 
 ### siduction Editionen
 
 Die Flavors, die wir für siduction 2026.1.0 anbieten, sind KDE Plasma 6.7.4, LXQt 2.3.0, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es leider nicht in die Auswahl geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Wenn ihr Interesse habt oder jemanden mit Interesse kennt, meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar.  
-Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom xx.09.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer und einer angepassten Version des Linux-Kernels 7.2.6 angereichert, während systemd bei v262~rc2-1 steht.
+Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom xx.09.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer sowie dem überarbeiteten CLI-Installer und einer angepassten Version des Linux-Kernels 7.2.6 angereichert, während systemd bei v262~rc3-1 steht.
 
 + **KDE Plasma 6.7,4**  
   Wir haben mit der Veröffentlichung von siduction 2026.1.0 »Big Crime« schlussendlich noch auf Plasma 6.7 gewartet. Diese neue Hauptversion bildet einen Einschnitt insofern, als es die letzte Hauptversion von KDE Plasma ist, die noch eine X11-Sitzung mitbringt. Mit Plasma 6.8, das am 14. Oktober erscheint, ist Wayland der alleinige Standard.  
@@ -81,6 +81,10 @@ Im Anschluss an eine APT Aktion ändert das Skript *snapshot-description* die vo
 *siduction-btrfs (0.3.0-1) unstable; urgency=medium*  
 + Umgeschrieben mit dem Ziel, das Snapper-Plugin-Verzeichnis zu verwenden.
 + Unterstützung für eine Boot-Partition bei Verwendung von GRUB hinzugefügt.
+
+### onoff
+
+Dieses kleine Skript ist ein Ersatz für den entfernten Befehl *init*. onoff stellt die durch systemd 258~rc1-1 entfernte Funktionalität von *init 0* bis *init 6* für den Benutzer in einem laufenden System wieder zur Verfügung. Um in einen anderen Systemzustand zu wechseln, genügt es mit Root Rechten den Befehl *onoff* gefolgt von der Ziffer für den gewünschten Systemzustand im Terminal einzugeben. Die langen systemd Befehle kann sich der Benutzer sparen.
 
 ### Non-free and Contrib:
 
