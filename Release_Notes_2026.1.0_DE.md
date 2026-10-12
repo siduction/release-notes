@@ -3,23 +3,23 @@ WIP:
 
 Das siduction-Team freut sich, euch endlich wieder ein neues Release vorzustellen. Seit dem letzten Release ist mehr Zeit vergangen als geplant.
 
-Eigentlich sollte Big Crime traditionsgemäß zwischen den Jahren erscheinen. Fehlende Zeit bei den Beteiligten führten dazu, dass die Veröffentlichung erst jetzt erscheint. Die neuen Abbilder stehen [zum Download](https://isobuilds.siduction.org) bereit.
+Eigentlich sollte Big Crime traditionsgemäß zwischen den Jahren erscheinen. Fehlende Zeit bei den Beteiligten führte dazu, dass die Veröffentlichung erst jetzt erscheint. Die aktuellen Abbilder stehen [zum Download](https://isobuilds.siduction.org) bereit.
 
 ### Was erwartet euch bei siduction 2026.1.0?
 
-Zunächst ein paar Worte zum neuen Artwork von siduction 2026.1.0 mit dem Titel »Big Crime«. Als Vorlage dient der gleichnamige Song von Neil Young, in dem er die Politik der derzeitigen US-Regierung scharf kritisiert. Das Wallpaper wurde mit Chatgpt-KI erzeugt.
+Zunächst ein paar Worte zum neuen Artwork von siduction 2026.1.0 mit dem Titel »Big Crime«: Als Vorlage dient der gleichnamige Song von Neil Young, in dem er die Politik der derzeitigen US-Regierung scharf kritisiert. Das Wallpaper wurde mit Chatgpt-KI erzeugt.
 
 ### siduction Editionen
 
-Die Flavors, die wir für siduction 2026.1.0 anbieten, sind KDE Plasma 6.7.4, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es leider nicht in die Auswahl geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Wenn ihr Interesse habt oder jemanden mit Interesse kennt, meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar. 
+Die Varianten, die wir mit siduction 2026.1.0 anbieten, sind KDE Plasma 6.7.4, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es leider nicht in die Auswahl geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Wenn ihr Interesse habt oder jemanden mit Interesse kennt, meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar. 
 
 LXDe ist derzeit nicht in einem Release-fähigen Zustand. Wir werden es nachliefern, wenn es wieder für eine Veröffentlichung bereit ist. 
-Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom 12.10.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer sowie dem überarbeiteten CLI-Installer und einer angepassten Version des Linux-Kernels 7.2.10 angereichert, während systemd bei v262-1 steht.
+Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom 12.10.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer sowie dem stark überarbeiteten CLI-Installer und einer angepassten Version des Linux-Kernels 7.2.10 angereichert, während systemd bei v262-1 steht.
 
-+ **KDE Plasma 6.7,4**  
-  Wir haben mit der Veröffentlichung von siduction 2026.1.0 »Big Crime« schlussendlich noch auf Plasma 6.7 gewartet. Diese neue Hauptversion bildet einen Einschnitt insofern, als es die letzte Hauptversion von KDE Plasma ist, die noch eine X11-Sitzung mitbringt. Mit Plasma 6.8, das am 14. Oktober erscheint, ist Wayland der alleinige Standard.  
++ **KDE Plasma 6.7.4**  
+  Wir haben mit der Veröffentlichung von siduction 2026.1.0 »Big Crime« schlussendlich auf Plasma 6.7 gewartet. Diese neue Hauptversion bildet einen Einschnitt insofern, als es die letzte Hauptversion von KDE Plasma ist, die noch eine X11-Sitzung mitbringt. Ab Plasma 6.8, das am 14. Oktober erscheint, ist Wayland der alleinige Standard.  
   Anwender, die dann noch Probleme mit einzelnen Anwendungen unter Wayland haben, können auf Xfce ausweichen, das bisher standardmäßig noch nicht auf Wayland setzt.  
-  Auf GitHub wird derzeit ein Fork namens [SonicDE](https://github.com/Sonic-DE) entwickelt, der bereits jetzt in Unstable installierbar ist, den wir aber noch nicht getestet haben. Wenn ihr bereits Erfahrungen damit habt, könnt ihr diese gerne bei uns im Forum posten.
+  Auf GitHub wird derzeit ein Fork namens [SonicDE](https://github.com/Sonic-DE) entwickelt, der bereits jetzt in Testing und Unstable installierbar ist, den wir aber noch nicht ausgiebig getestet haben. Wenn ihr bereits Erfahrungen damit habt, könnt ihr diese gerne bei uns im Forum posten.
 
 + **Xfce 4.20**  
  Xfce bleibt seinem langsamen Turnus treu und steht, wie beim letzten Release, immer noch bei [Xfce 4.20](https://linuxnews.de/xfce-4-20-wayland-unterstuetzung-und-noch-viel-mehr/). Es bietet derzeit eine noch experimentelle Implementierung von Wayland, die seit der Veröffentlichung weiter ausgebaut wurde. Überdies erhielt unter anderem der Dateimanager Thunar wesentliche Verbesserungen.
@@ -34,25 +34,25 @@ Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von D
 
 Für siduction 2026.1.0 wurde der cli-installer komplett modernisiert. Er ist in allen Flavours enthalten.
 
-Das besondere Highlight ist der integrierte Bootmanager systemd-boot, der somit in allen Flavours zur Installation bereit steht. Wer über ein einfaches Hardware Setup verfügt ist mit systemd-boot gut beraten. Der überarbeitete cli-installer führt den Benutzer durch die Konfiguration, bietet sinnvolle Aktionen an, prüft Abhängigkeiten und Bedingungen und informiert über vorgenommene Einstellungen. Ein Abbruch des Programms ist zu jeder Zeit möglich.
+Das besondere Highlight ist der integrierte Bootmanager systemd-boot, der somit in allen Flavours zur Installation bereit steht. Wer über ein einfaches Hardware-Setup verfügt ist mit systemd-boot gut beraten. Der überarbeitete cli-installer führt den Benutzer durch die Konfiguration, bietet sinnvolle Aktionen an, prüft Abhängigkeiten und Bedingungen und informiert über vorgenommene Einstellungen. Ein Abbruch des Programms ist zu jeder Zeit möglich.
 
-Mit der Aufnahme von Calamares als graphisches Installationsprogramm verlor der zugrundeliegende fll-installer zunehmend an Bedeutung. Das führte dazu, dass der cli- und der fll-installer seit 2018 nahezu unverändert blieben. Da siduction auch weiterhin ein NOX Flavour bereitstellen möchte, bedurfte das Gespann cli- und fll-installer einer grundlegenden Überarbeitung mit der Integration aktueller Features.  
+Mit der Aufnahme von Calamares als grafisches Installationsprogramm verlor der zugrundeliegende fll-installer zunehmend an Bedeutung. Das führte dazu, dass der cli- und der fll-installer seit 2018 nahezu unverändert blieben. Da siduction auch weiterhin einen NOX-Flavour bereitstellen möchte, bedurfte das Gespann cli- und fll-installer einer grundlegenden Überarbeitung mit der Integration aktueller Features.  
 Zum Verständnis: Während der *cli-installer* die Benutzeroberfläche für den Nutzer bietet, ist der *fll-installer* das eigentliche Werkzeug im Hintergrund, das die Daten auf die Festplatte schreibt.
 
 **Die wichtigsten Änderungen:**  
 + Aktualisierung veralteter Befehle, Abfragen und Dialoge.  
-+ Nonfree Sourcen als Opt-in.  
++ Nonfree-Sourcen als Opt-in.  
 + Vollständige Unterstützung von UEFI GPT.  
-+ Unterstützung des Btrfs Dateisystems mit dem Anlegen der bei siduction üblichen Subvolumen.  
-+ Auswahl der Bootmanager systemd-boot und GRUB.  
++ Unterstützung des Btrfs-Dateisystems mit dem Anlegen der bei siduction üblichen Subvolumen.  
++ Auswahl zwischen den Bootmanagern systemd-boot und GRUB.  
 + Einheitliches Aussehen der Benutzerschnittstelle für alle Dialoge.  
-+ Programmteile der graphischen Oberfläche wurden entfernt.  
++ Programmteile der grafischen Oberfläche wurden entfernt.  
 
 ### Btrfs-Dateisystem
 
 Bei Verwendung des Btrfs-Dateisystems mit siduction ermöglichen wir es, eure Snapshots mit dem bei SUSE entwickelten Tool [Snapper](https://documentation.suse.com/de-de/sles/12-SP5/html/SLES-all/cha-snapper.html) zu verwalten, dem im [siduction Handbuch](https://manual.siduction.org/index_de.html) unter *Systemadministration → Btrfs und Snapper* ein eigenes Kapitel gewidmet ist. Neu hinzugekommen ist das Programm *Btrfs Assistant*, welches den Benutzern in den graphischen Oberflächen zur Verfügung steht und *snapper-gui* ersetzt.
 
-**Auszug aus der Dokumentation von siduction-btrfs (info-md):**
+**Auszug aus der Dokumentation von siduction-btrfs:**
 
 siduction-btrfs kann auf Systemen mit MBR- und GPT-Partitionstabellen verwendet werden, mit oder ohne separate /boot-Partition.
 
@@ -60,14 +60,14 @@ Seit der Version 0.3.0 verwendet siduction-btrfs das Snapper-Plugin-Verzeichnis.
 
 *Bei Verwendung des Bootmanagers GRUB*  
 Nach einem Rollback wird im Rollbackziel mittels chroot die Datei */boot/grub/grub.cfg* neu erstellt und anschließend aus dem Rollbackziel heraus GRUB neu installiert. Dadurch gelangt der Benutzer mit einem einfachen Reboot direkt in das Rollbackziel. Alle anderen Subvolumen, auch das zuvor verwendete, sind über das Untermenü *siduction snapshots* erreichbar.  
-Wird bei Software Installation oder Upgrade die Datei */boot/grub/grub.cfg* aktualisiert, erweitert das Skript *grub-menu-title* die Menüzeile des Standardbooteintrages um das Flavor und das Subvolumen.
+Wird bei Software-Installation oder Upgrade die Datei */boot/grub/grub.cfg* aktualisiert, erweitert das Skript *grub-menu-title* die Menüzeile des Standardbooteintrages um das Flavor und das Subvolumen.
 
 *Bei Verwendung des Bootmanagers systemd-boot*  
 Nach einem Rollback erstellt das Skript *rollback-sd-boot* die Booteinträge. Dabei berücksichtigt es alle im Rollbackziel enthaltenen Kernel. Der Standardbooteintrag wird auf das Rollbackziel, das jetzt das Standardsubvolumen ist, gesetzt.  
 Wird ein Subvolumen gelöscht für das Booteinträge bestanden, werden diese entfernt.
 
 *Snapper Snapshot Beschreibung*  
-Im Anschluss an eine APT Aktion ändert das Skript *snapshot-description* die von Snapper angezeigte Beschreibung (apt) zu einem aussagekräftigeren Text.
+Im Anschluss an eine APT-Aktion ändert das Skript *snapshot-description* die von Snapper angezeigte Beschreibung (apt) zu einem aussagekräftigeren Text.
 
 **Das Changelog der Änderungen:**
 
@@ -83,7 +83,7 @@ Im Anschluss an eine APT Aktion ändert das Skript *snapshot-description* die vo
 
 ### onoff
 
-Dieses kleine Skript ist ein Ersatz für den entfernten Befehl *init*. onoff stellt die durch systemd 258~rc1-1 entfernte Funktionalität von *init 0* bis *init 6* für den Benutzer in einem laufenden System wieder zur Verfügung. Um in einen anderen Systemzustand zu wechseln, genügt es mit Root Rechten den Befehl *onoff* gefolgt von der Ziffer für den gewünschten Systemzustand im Terminal einzugeben. Die langen systemd Befehle kann sich der Benutzer sparen.
+Dieses kleine Skript ist ein Ersatz für den entfernten Befehl *init*. onoff stellt die durch systemd 258~rc1-1 entfernte Funktionalität von *init 0* bis *init 6* für den Benutzer in einem laufenden System wieder zur Verfügung. Um in einen anderen Systemzustand zu wechseln, genügt es mit Root-Rechten den Befehl *onoff*, gefolgt von der Ziffer für den gewünschten Systemzustand, im Terminal einzugeben. Die langen        systemd-Befehle kann sich der Benutzer sparen.
 
 ### Non-free and Contrib:
 
