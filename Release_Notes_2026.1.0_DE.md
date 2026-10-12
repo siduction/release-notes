@@ -11,8 +11,10 @@ Zunächst ein paar Worte zum neuen Artwork von siduction 2026.1.0 mit dem Titel 
 
 ### siduction Editionen
 
-Die Flavors, die wir für siduction 2026.1.0 anbieten, sind KDE Plasma 6.7.4, LXQt 2.3.0, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es leider nicht in die Auswahl geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Wenn ihr Interesse habt oder jemanden mit Interesse kennt, meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar.  
-Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom xx.09.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer sowie dem überarbeiteten CLI-Installer und einer angepassten Version des Linux-Kernels 7.2.6 angereichert, während systemd bei v262~rc3-1 steht.
+Die Flavors, die wir für siduction 2026.1.0 anbieten, sind KDE Plasma 6.7.5, Xfce 4.20, Xorg und NOX. GNOME, MATE und Cinnamon haben es leider nicht in die Auswahl geschafft, da es keinen Betreuer innerhalb von siduction dafür gibt. Wenn ihr Interesse habt oder jemanden mit Interesse kennt, meldet euch bitte. Vielleicht kommen sie eines Tages zurück. Natürlich sind sie weiterhin aus dem Repository installierbar. 
+
+LXDe ist derzeit nicht in einem Release-fähigen Zustand. Wir werden es nachliefern, wenn es wieder für eine Veröffentlichung bereit ist. 
+Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von Debian Unstable, das auch den Namen Sid trägt, vom 12.10.2026. Sie sind mit einigen nützlichen Paketen und Skripten, einem auf Calamares basierenden Installer sowie dem überarbeiteten CLI-Installer und einer angepassten Version des Linux-Kernels 7.2.10 angereichert, während systemd bei v262-1 steht.
 
 + **KDE Plasma 6.7,4**  
   Wir haben mit der Veröffentlichung von siduction 2026.1.0 »Big Crime« schlussendlich noch auf Plasma 6.7 gewartet. Diese neue Hauptversion bildet einen Einschnitt insofern, als es die letzte Hauptversion von KDE Plasma ist, die noch eine X11-Sitzung mitbringt. Mit Plasma 6.8, das am 14. Oktober erscheint, ist Wayland der alleinige Standard.  
@@ -21,9 +23,6 @@ Die veröffentlichten Images von siduction 2026.1.0 sind ein Schnappschuss von D
 
 + **Xfce 4.20**  
  Xfce bleibt seinem langsamen Turnus treu und steht, wie beim letzten Release, immer noch bei [Xfce 4.20](https://linuxnews.de/xfce-4-20-wayland-unterstuetzung-und-noch-viel-mehr/). Es bietet derzeit eine noch experimentelle Implementierung von Wayland, die seit der Veröffentlichung weiter ausgebaut wurde. Überdies erhielt unter anderem der Dateimanager Thunar wesentliche Verbesserungen.
-
-+ **LXQt 2.3.0**  
-  LXQt ist der leichtgewichtige Bruder von KDE Plasma. Der seit zehn Jahren entwickelte Desktop bietet in [Version 2.3.0](https://linuxnews.de/lxqt-2-3-0-mit-mehr-wayland-unterstuetzung/) ebenfalls eine noch als experimentell eingestufte Wayland-Sitzung. Die Verbesserung der Wayland-Unterstützung wurde insbesondere im LXQt-Panel fortgesetzt, dessen Desktop-Umschalter nun für die Tiling-Compositoren *labwc* und *niri* aktiviert ist, Darüber hinaus gibt es ein neues, auf IPC (Interprozesskommunikation) basierendes Backend für Wayfire.
 
 + **Xorg**  
   Xorg bietet wie gehabt eine Möglichkeit, das System basierend auf einem vorinstallierten X-Server selbst aufzubauen. Das gilt jetzt noch für alle ausgelieferten Desktop-Umgebungen, wird aber ab Plasma 6.8 mit KDE und LXQt nicht mehr funktionieren.  Als Fenstermanager dient Fluxbox,ein extrem schneller und speicherschonender Fenstermanager für das X Window System. Somit eignet sich Xorg auch als Ausgangspunkt für Anwender die (noch) nicht mit Wayland arbeiten können oder wollen.
@@ -136,11 +135,12 @@ Torsten Wohlfarth (towo)
 
 Hendrik Lehmbruch (hendrikL) 
 
-Ferdinand Thommes (devil) 
+Axel Konrad (akli)
 
 Vinzenz Vietzke (vinzv) 
 
-Axel Konrad (akli)
+Ferdinand Thommes (devil) 
+
 
 **Früher haben beigetragen:**
 
@@ -152,7 +152,7 @@ Markus Meyer (coruja)
 
 **Server & Hosting**
 
-sla
+Stefan (sla)
 
 ### Unser Dank gilt allen Beteiligten und unseren treuen Usern!
 
