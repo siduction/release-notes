@@ -3,7 +3,7 @@ WIP:
 
 Das siduction-Team freut sich, euch endlich wieder ein neues Release vorzustellen. Seit dem letzten Release ist mehr Zeit vergangen als geplant.
 
-Eigentlich sollte Big Crime traditionsgemäß zwischen den Jahren erscheinen. Fehlende Zeit bei den Beteiligten führte dazu, dass die Veröffentlichung erst jetzt erscheint. Die aktuellen Abbilder stehen [zum Download](https://isobuilds.siduction.org) bereit.
+Eigentlich sollte Big Crime traditionsgemäß zwischen den Jahren erscheinen. Fehlende Zeit bei den Beteiligten führte dazu, dass die Veröffentlichung erst jetzt erscheint. Die aktuellen Abbilder stehen [zum Download](https://siduction.org/installation-media/) bereit.
 
 ### Was erwartet euch bei siduction 2026.1.0?
 
