@@ -1,6 +1,6 @@
 The siduction team is pleased to present another release finally. More time has passed since the last release than originally planned.
 
-Traditionally, Big Crime was supposed to be released between Christmas and New Year. However, a lack of time among the team members delayed the release until now. The latest images are available for[Download](https://isobuilds.siduction.org) now
+Traditionally, Big Crime was supposed to be released between Christmas and New Year. However, a lack of time among the team members delayed the release until now. The latest images are available for[Download](https://siduction.org/installation-media/) now.
 
 ### What can you expect from siduction 2026.1.0?
 
