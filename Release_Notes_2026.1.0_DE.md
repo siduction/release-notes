@@ -109,7 +109,7 @@ Die folgenden non-free und contrib Pakete sind standardmäßig installiert:
 
 ### Non-Free Inhalte entfernen
 
-Wer sich bei der Installation dafür entschieden hat, auch unfreie software zu installieren, das aber später ändern möchte, lässt sich die unfreie Software in der Installation mit dem Befehl *vrms* (Virtual Richard Stallman) anzeigen. Du kannst nicht erwünschte Pakete manuell deinstallieren oder mit dem Befehl *apt purge \$(vrms -s)* alle auf einmal inklusive Konfiguration entfernen. Unser Skript *remove-nonfree* führt zum gleichen Ergebnis.
+Wer sich bei der Installation dafür entschieden hat, auch unfreie Software zu installieren, das aber später ändern möchte, lässt sich die unfreie Software in der Installation mit dem Befehl *vrms* (Virtual Richard Stallman) anzeigen. Du kannst nicht erwünschte Pakete manuell deinstallieren oder mit dem Befehl *apt purge \$(vrms -s)* alle auf einmal inklusive Konfiguration entfernen. Unser Skript *remove-nonfree* führt zum gleichen Ergebnis.
 
 ### Installationshinweise und bekannte Probleme
 
