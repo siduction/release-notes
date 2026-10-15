@@ -69,18 +69,6 @@ Wird ein Subvolumen gelöscht für das Booteinträge bestanden, werden diese ent
 *Snapper Snapshot Beschreibung*  
 Im Anschluss an eine APT-Aktion ändert das Skript *snapshot-description* die von Snapper angezeigte Beschreibung (apt) zu einem aussagekräftigeren Text.
 
-**Das Changelog der Änderungen:**
-
-*siduction-btrfs (0.2.0) unstable; urgency=medium*  
-+ Unterstützung für systemd-boot hinzugefügt.
-+ Installationsabhängigkeiten zu grub-common und grub-btrfs entfernt.
-    + Beides ermöglicht den vollständigen Wechsel von GRUB zu systemd-boot.
-+ Verbesserte Beschreibung von Schnappschüssen im Snapper.
-
-*siduction-btrfs (0.3.0-1) unstable; urgency=medium*  
-+ Umgeschrieben mit dem Ziel, das Snapper-Plugin-Verzeichnis zu verwenden.
-+ Unterstützung für eine Boot-Partition bei Verwendung von GRUB hinzugefügt.
-
 ### onoff
 
 Dieses kleine Skript ist ein Ersatz für den entfernten Befehl *init*. onoff stellt die durch systemd 258~rc1-1 entfernte Funktionalität von *init 0* bis *init 6* für den Benutzer in einem laufenden System wieder zur Verfügung. Um in einen anderen Systemzustand zu wechseln, genügt es mit Root-Rechten den Befehl *onoff*, gefolgt von der Ziffer für den gewünschten Systemzustand, im Terminal einzugeben. Die langen        systemd-Befehle kann sich der Benutzer sparen.
@@ -121,7 +109,7 @@ Die folgenden non-free und contrib Pakete sind standardmäßig installiert:
 
 ### Non-Free Inhalte entfernen
 
-Wer sich bei der Installation in Calamares dafür entschieden hat, auch unfreie software zu installieren, das aber später ändern möchte, lässt sich die unfreie Software in der Installation mit dem Befehl *vrms* (Virtual Richard Stallman) anzeigen. Du kannst nicht erwünschte Pakete manuell deinstallieren oder mit dem Befehl *apt purge \$(vrms -s)* alle auf einmal inklusive Konfiguration entfernen. Unser Skript *remove-nonfree* führt zum gleichen Ergebnis.
+Wer sich bei der Installation dafür entschieden hat, auch unfreie software zu installieren, das aber später ändern möchte, lässt sich die unfreie Software in der Installation mit dem Befehl *vrms* (Virtual Richard Stallman) anzeigen. Du kannst nicht erwünschte Pakete manuell deinstallieren oder mit dem Befehl *apt purge \$(vrms -s)* alle auf einmal inklusive Konfiguration entfernen. Unser Skript *remove-nonfree* führt zum gleichen Ergebnis.
 
 ### Installationshinweise und bekannte Probleme
 
