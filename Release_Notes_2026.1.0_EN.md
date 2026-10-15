@@ -88,20 +88,6 @@ If a Subvolume with existing boot entries is deleted, those entries are also rem
 
 After an APT operation, the snapshot-description script replaces the generic description (apt) displayed by Snapper with a more informative text.
 
-**Changelog:**
-
-siduction-btrfs (0.2.0) unstable; urgency=medium
-
-- Added support for systemd-boot.
-- Removed installation dependencies on grub-common and grub-btrfs.
-    - Together, these changes enable a complete migration from GRUB to systemd-boot.
-- Improved snapshot descriptions in Snapper.
-
-siduction-btrfs (0.3.0-1) unstable; urgency=medium
-
-- Rewritten to use the Snapper plugin directory.
-- Added support for a separate boot partition when using GRUB.
-
 ### onoff
 
 This small script replaces the removed init command. It restores the functionality of init 0 through init 6, which was removed by systemd 258~rc1-1, allowing users to change system states on a running system.
@@ -144,7 +130,7 @@ Contrib:
 
 ### Removing Non-free Software
 
-If you opted to install non-free software in Calamares but later change your mind, you can use the vrms (Virtual Richard Stallman) command to identify non-free packages installed on your system.
+If you opted to install non-free software but later change your mind, you can use the vrms (Virtual Richard Stallman) command to identify non-free packages installed on your system.
 
 You can remove unwanted packages manually or use the command `apt purge $(vrms -s)` to remove them all at once, including their configuration files. Our remove-nonfree script achieves the same result.
 
