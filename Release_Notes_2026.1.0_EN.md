@@ -12,7 +12,7 @@ The editions we offer with siduction 2026.1.0 are KDE Plasma 6.7.4, Xfce 4.20, X
 
 LXDE is currently not in a release-ready state. We will provide it later once it is ready for release.
 
-The released siduction 2026.1.0 images are snapshots of Debian Unstable, also known as Sid, from October 12, 2026. They include several useful packages and scripts, a Calamares-based installer, a substantially revised CLI installer, and a customized version of Linux kernel 7.2.10, while systemd is at version 262-1.
+The released siduction 2026.1.0 images are snapshots of Debian Unstable, also known as Sid, from October 18, 2026. They include several useful packages and scripts, a Calamares-based installer, a substantially revised CLI installer, and a customized version of Linux kernel 7.2.11, while systemd is at version 262-1.
 
 ### KDE Plasma 6.7.4
 
